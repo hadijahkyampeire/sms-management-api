@@ -1,0 +1,28 @@
+{
+  "name": "sms-management-api",
+  "version": "1.0.0",
+  "description": "An API that enables users to send and receive messages It is a RESTful( Representational State Transfer ) API in a Node.js environment running on an Express server and utilizing a (PostgreSQL)[https://www.postgresql.org/] database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadijahkyampeire/sms-management-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadijahkyampeire/sms-management-api/issues"
+  },
+  "homepage": "https://github.com/hadijahkyampeire/sms-management-api#readme",
+  "dependencies": {
+    "date-and-time": "^0.6.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "make-runnable": "^1.3.6",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.1"
+  }
+}
